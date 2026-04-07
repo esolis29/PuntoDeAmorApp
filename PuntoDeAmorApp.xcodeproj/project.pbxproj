@@ -6,13 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DBBC48CE2F81C76300D17113 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DBBC48CD2F81C76300D17113 /* FirebaseAnalytics */; };
+		DBBC48D02F81C76300D17113 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DBBC48CF2F81C76300D17113 /* FirebaseFirestore */; };
+		DBBC48D22F81C76300D17113 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = DBBC48D12F81C76300D17113 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DBE1707E2F80F4E800316F90 /* PuntoDeAmorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuntoDeAmorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DB8C13932F81E96200D28855 /* Exceptions for "PuntoDeAmorApp" folder in "PuntoDeAmorApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DBE1707D2F80F4E800316F90 /* PuntoDeAmorApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DBE170802F80F4E800316F90 /* PuntoDeAmorApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DB8C13932F81E96200D28855 /* Exceptions for "PuntoDeAmorApp" folder in "PuntoDeAmorApp" target */,
+			);
 			path = PuntoDeAmorApp;
 			sourceTree = "<group>";
 		};
@@ -23,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBC48D22F81C76300D17113 /* FirebaseMessaging in Frameworks */,
+				DBBC48CE2F81C76300D17113 /* FirebaseAnalytics in Frameworks */,
+				DBBC48D02F81C76300D17113 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,9 @@
 			);
 			name = PuntoDeAmorApp;
 			packageProductDependencies = (
+				DBBC48CD2F81C76300D17113 /* FirebaseAnalytics */,
+				DBBC48CF2F81C76300D17113 /* FirebaseFirestore */,
+				DBBC48D12F81C76300D17113 /* FirebaseMessaging */,
 			);
 			productName = PuntoDeAmorApp;
 			productReference = DBE1707E2F80F4E800316F90 /* PuntoDeAmorApp.app */;
@@ -94,6 +119,9 @@
 			);
 			mainGroup = DBE170752F80F4E800316F90;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DBBC48CC2F81C76300D17113 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DBE1707F2F80F4E800316F90 /* Products */;
 			projectDirPath = "";
@@ -251,13 +279,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88K5JT2T2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PuntoDeAmorApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Usamos Face ID para que entres a tu cuenta de Punto de Amor en forma segura";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,13 +315,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 88K5JT2T2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PuntoDeAmorApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Usamos Face ID para que entres a tu cuenta de Punto de Amor en forma segura";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +366,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DBBC48CC2F81C76300D17113 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBBC48CD2F81C76300D17113 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBBC48CC2F81C76300D17113 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DBBC48CF2F81C76300D17113 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBBC48CC2F81C76300D17113 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DBBC48D12F81C76300D17113 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DBBC48CC2F81C76300D17113 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DBE170762F80F4E800316F90 /* Project object */;
 }
