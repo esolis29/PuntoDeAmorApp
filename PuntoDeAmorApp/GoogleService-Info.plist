@@ -26,5 +26,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:171695159072:ios:933f403b69b8db78fb0945</string>
+	<key>DATABASE_URL</key>
+	<string>https://punto-de-amor-app-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
